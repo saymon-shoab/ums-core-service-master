@@ -9,6 +9,41 @@
             "date": 1710786808234,
             "name": "F:\\level-2\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-19-03-00-error.log",
             "hash": "16d94ea5f18e5c064773408ee511eb890bcbce1297b0f692277c6d328dd6b8dd"
+        },
+        {
+            "date": 1711097362677,
+            "name": "F:\\level-2\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-22-03-14-error.log",
+            "hash": "007f54a5c59dacc329e97b101d2e82be6adbeb40461a0784ba071f969a6ffd1d"
+        },
+        {
+            "date": 1711131978100,
+            "name": "F:\\level-2\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-23-03-00-error.log",
+            "hash": "ce03b650d4ebb86614f05b161dea349d809629b9f501c6242bb2ce915399891e"
+        },
+        {
+            "date": 1711140649163,
+            "name": "F:\\level-2\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-23-03-02-error.log",
+            "hash": "b67925ae98f98bf36b8e4419213ab57a0641bccb9e24b20e03e187217807428b"
+        },
+        {
+            "date": 1711141228851,
+            "name": "F:\\level-2\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-23-03-03-error.log",
+            "hash": "29a328ae0e4d135761c78ef4becd144f2101266155b8681e3216fc75cf709e4e"
+        },
+        {
+            "date": 1711181981849,
+            "name": "F:\\level-2\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-23-03-14-error.log",
+            "hash": "8cf746d7e2059c4e2e9f948e05450263b95bc88ce21b7f36785f1c0ca7e9a0d9"
+        },
+        {
+            "date": 1711310197907,
+            "name": "F:\\level-2\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-25-03-01-error.log",
+            "hash": "8cb10b1e3e6f389dfc535f8b30ed2fca99dd415ff0fde320e975eefabcacb104"
+        },
+        {
+            "date": 1711310401989,
+            "name": "F:\\level-2\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2024-25-03-02-error.log",
+            "hash": "5b8d422d924f67998739f8d436d5b89693b11578f895886a0c29939ccb7a4a6c"
         }
     ],
     "hashType": "sha256"
