@@ -107,8 +107,18 @@ const getByIdFromDB = async (id: string): Promise<faculty | null> => {
   return result;
 };
 
+const deleteFromDB = async(id:string): Promise<faculty> => {
+   const result = await prisma.faculty.delete({
+    where:{
+      id:id
+    }
+   })
+   return result
+}
+
 export const FacultyService = {
   insertIntoDB,
   getAllFromDB,
   getByIdFromDB,
+  deleteFromDB
 };
