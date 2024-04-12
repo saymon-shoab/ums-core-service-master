@@ -40,6 +40,17 @@ const getByIdFromDB = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const updateIntoDB = catchAsync(async(req:Request,res:Response)=>{
+  const {id} = req.params
+  const {payload} = req.body
+  const result = await FacultyService.updateIntoDB(id,payload)
+  sendResponse(res,{
+    statusCode:httpStatus.OK,
+    success:true,
+    message:"Faculty updated successfully",
+    data:result
+  })
+})
 
 const deleteFromDB = catchAsync(async(req:Request,res:Response)=>{
   const {id} = req.params
@@ -56,5 +67,6 @@ export const FacultyController = {
   insertIntoDB,
   getAllFromDB,
   getByIdFromDB,
-  deleteFromDB
+  deleteFromDB,
+  updateIntoDB
 };

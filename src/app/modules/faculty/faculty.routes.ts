@@ -17,9 +17,9 @@ router.post(
   FacultyController.insertIntoDB
 );
 
-router.patch("/:id",auth(ENUM_USER_ROLE.ADMIN,ENUM_USER_ROLE.SUPER_ADMIN))
+router.patch("/:id", auth(ENUM_USER_ROLE.ADMIN, ENUM_USER_ROLE.SUPER_ADMIN),FacultyController.updateIntoDB)
 
-router.delete('/:id',auth(ENUM_USER_ROLE.SUPER_ADMIN,ENUM_USER_ROLE.ADMIN),FacultyController.deleteFromDB)
+router.delete('/:id', auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN), FacultyController.deleteFromDB)
 
 
 export const facultyRoutes = router;
