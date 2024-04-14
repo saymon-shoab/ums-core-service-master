@@ -108,6 +108,15 @@ const getByIdFromDB = async (
   return result;
 };
 
+// const updateIntoDB = async(id:string,payload:Partial<AcademicDepartment>): Promise<AcademicDepartment> => {
+//   const result = await prisma.academicDepartment.update({
+//     where:{
+//       id:id
+//     }
+//   })
+//   return result
+// }
+
 export const AcademicDepartmentService = {
   insertIntoDB,
   getAllFromDB,

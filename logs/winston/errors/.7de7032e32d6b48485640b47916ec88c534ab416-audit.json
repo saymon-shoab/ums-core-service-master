@@ -44,6 +44,16 @@
             "date": 1712954829095,
             "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-13-04-02-error.log",
             "hash": "54fde7f68682eb881edcf0ce90adf3f343a30512567a5eff88afd7aef40097a0"
+        },
+        {
+            "date": 1712975717387,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-13-04-08-error.log",
+            "hash": "08d1e02997e89c2d913b7c3fd422e8a0139216dbd712904e91d9f0bca17117d1"
+        },
+        {
+            "date": 1712978527586,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-13-04-09-error.log",
+            "hash": "5bc44b84cc8f601c522f9e58f0bfb62c74b216e6116e44a43e3db40f14f05c42"
         }
     ],
     "hashType": "sha256"
