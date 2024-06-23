@@ -6,69 +6,24 @@
     "auditLog": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/.b002890124f0de1345839c3d073cdd3ab0a2b17a-audit.json",
     "files": [
         {
-            "date": 1712704246876,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-10-04-05-success.log",
-            "hash": "d33d08bfa751979afd01bee3d64d3e1cefe2c56bd462f643893fb1b4d348eebb"
+            "date": 1719109349213,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-23-06-08-success.log",
+            "hash": "b14f3500fc1722dc48da572b17093b28122747d59f3f0ce90ddbc2a1b7893f74"
         },
         {
-            "date": 1712784540559,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-11-04-03-success.log",
-            "hash": "592e0ca930dbdf3395122d56729bcf84e0139f4088d1815f51fd28675661e86a"
+            "date": 1719117785400,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-23-06-10-success.log",
+            "hash": "d6071d063dae7adab472a6c2fb4af54fc064d40ab4c9899c23e827bb7d0e803a"
         },
         {
-            "date": 1712786498384,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-11-04-04-success.log",
-            "hash": "03e286a7cef8652be474275578e5d5c20b38ddd34581c15380b091f2b028b7c3"
+            "date": 1719118863250,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-23-06-11-success.log",
+            "hash": "9072defe78a497e9eaa5c11bf8f0775df52462972627dbdf18a9deedd038d135"
         },
         {
-            "date": 1712861613158,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-12-04-00-success.log",
-            "hash": "d1fc9bde11755ce8d387de8639450fb0becdaa05bd9e8d2a4404b1462bdadb11"
-        },
-        {
-            "date": 1712862192970,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-12-04-01-success.log",
-            "hash": "e1a27d6173588bf81226957defd4024aa4b96579db20a7e71f345ec6145f192f"
-        },
-        {
-            "date": 1712866116824,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-12-04-02-success.log",
-            "hash": "6e03e265d9b85b2f3f591e1647f9e5a06def54eb1050bcec20c73d354822301c"
-        },
-        {
-            "date": 1712947569783,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-13-04-00-success.log",
-            "hash": "f91c9960e72e73c9c66ab72f6310892b5812c8696d636feae102380fc9527dcc"
-        },
-        {
-            "date": 1712954828889,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-13-04-02-success.log",
-            "hash": "3bd52504784142882c66814d108945b5a0d4a1121c35d6b59d60efe3a81b4385"
-        },
-        {
-            "date": 1712975717095,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-13-04-08-success.log",
-            "hash": "ee54b81846be17c3a6beb8139a81b4d21bfff057ff1d6c3d11ad22d5b2d63648"
-        },
-        {
-            "date": 1712978527339,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-13-04-09-success.log",
-            "hash": "24952c56e15d87f63f1b4b05ca4b0190a8702a937b928e4245a0cb22e66f6c2a"
-        },
-        {
-            "date": 1713054852573,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-14-04-06-success.log",
-            "hash": "65c1efeba2e5b9d2effc5bab454dc380b09bcae317894ca0b9526b67c4ece8ce"
-        },
-        {
-            "date": 1713056551231,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-14-04-07-success.log",
-            "hash": "813a97cf72ba596faf641c744addb8178173599e50692046161df68abbe89410"
-        },
-        {
-            "date": 1713070919389,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-14-04-11-success.log",
-            "hash": "792467cab708c83a7acd0bc9ba4e1d1e2cef1eba0b3fca6e42117d815c2e7832"
+            "date": 1719123132774,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/successes/phu-2024-23-06-12-success.log",
+            "hash": "e5e6fd171ed7903476c59f318cf96f88190d4b28c3f35951abae8b4c1cb098e6"
         }
     ],
     "hashType": "sha256"
