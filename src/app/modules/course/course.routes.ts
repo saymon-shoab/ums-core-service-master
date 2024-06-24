@@ -18,12 +18,12 @@ router.post(
 );
 
 
-// router.patch(
-//     '/:id',
-//     validateRequest(CourseValidation.update),
-//     auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
-//     CourseController.updateOneInDB
-// );
+router.patch(
+    '/:id',
+    validateRequest(CourseValidation.update),
+    auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+    CourseController.updateOneInDB
+);
 
 
 router.delete(

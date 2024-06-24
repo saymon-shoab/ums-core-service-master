@@ -265,6 +265,19 @@ const deleteByIdFromDB = async (id: string): Promise<Course> => {
     return result;
 };
 
+const updateOneInDB = async(
+    id:string,
+    payload: ICourseCreateData
+):Promise<Course | null>=>{
+    const { preRequisiteCourses, ...courseData } = payload;
+    const result = await prisma.course.update({
+        where:{
+            id
+        },
+        data: courseData
+    })
+    return result
+}
 
 
 export const CourseService = {
@@ -272,7 +285,7 @@ export const CourseService = {
     getAllFromDB,
     getByIdFromDB,
     deleteByIdFromDB,
-    // updateOneInDB,
+    updateOneInDB,
 }
 
 
