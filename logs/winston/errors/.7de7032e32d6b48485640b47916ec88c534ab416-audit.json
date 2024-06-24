@@ -34,6 +34,11 @@
             "date": 1719180209582,
             "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-24-06-04-error.log",
             "hash": "5a35ddb87725307601683dec11672240eab25d624afe6d48a61626d560992ab9"
+        },
+        {
+            "date": 1719190837474,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-24-06-07-error.log",
+            "hash": "d9efd9eef179b4e9ea79f89aa741a4a915926c24c8d153c1fa95f91385b97b26"
         }
     ],
     "hashType": "sha256"

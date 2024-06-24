@@ -6,3 +6,12 @@ export type ICourseCreateData = {
         courseId: string
     }[]
 }
+
+export type IPrerequisiteCourseRequest = {
+    courseId: string,
+    isDeleted?: null
+}
+
+export type ICourseFilterRequest = {
+    searchTerm?: string | undefined;
+}
