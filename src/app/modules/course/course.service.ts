@@ -46,6 +46,8 @@ const insertIntoDB = async(data: ICourseCreateData): Promise<any> => {
         })
         return responseData
     }
+    throw new ApiError(httpStatus.BAD_REQUEST,'Unable to create course')
+
 }
 
 export const CourseService = {
