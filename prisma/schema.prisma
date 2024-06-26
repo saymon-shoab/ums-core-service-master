@@ -162,7 +162,7 @@ model SemesterRegistration {
 }
 
 enum SemesterRegistrationStatus {
-    UPCOMMING
+    UPCOMING
     ONGOING
     ENDED
 }
