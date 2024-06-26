@@ -21,5 +21,16 @@ router.patch("/:id", auth(ENUM_USER_ROLE.ADMIN, ENUM_USER_ROLE.SUPER_ADMIN),Facu
 
 router.delete('/:id', auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN), FacultyController.deleteFromDB)
 
+router.post(
+  '/:id/assign-courses',
+  validateRequest(FacultyValidation.assignOrRemoveCourses),
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+  FacultyController.assignCourses)
+
+router.delete(
+  '/:id/remove-courses',
+  validateRequest(FacultyValidation.assignOrRemoveCourses),
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+  FacultyController.removeCourses)
 
 export const facultyRoutes = router;
