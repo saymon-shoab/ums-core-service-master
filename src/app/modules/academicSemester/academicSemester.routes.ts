@@ -8,7 +8,7 @@ import { academicSemesterValidation } from './academicSemesterValidation';
 const router = express.Router();
 
 router.post(
-  '/create-academicsemester',
+  '/',
   validateRequest(academicSemesterValidation.create),
   AcademicSemesterController.insertIntoDB
 );

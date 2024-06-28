@@ -10,9 +10,9 @@ import {
 } from './student.constants';
 import { IStudentFilterRequest } from './student.interface';
 
-const insertIntoDB = async (StudentData: Student): Promise<Student> => {
+const insertIntoDB = async (data: Student): Promise<Student> => {
   const result = await prisma.student.create({
-    data: StudentData,
+    data,
     include: {
       academicFaculty: true,
       academicDepartment: true,

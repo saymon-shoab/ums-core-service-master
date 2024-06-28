@@ -1,0 +1,81 @@
+Fri Jun 28 2024 17:32:22 } [PH] error: 
+Invalid `prisma.student.create()` invocation:
+
+{
+  data: {
+    studentId: "000111",
+    firstName: "Md",
+    lastName: "Saymon",
+    middleName: "Shoab",
+    profileImage: "www.https://lsdjl.com",
+    email: "mdsaymonshoab@gmail.com",
+    contactNo: "01830409233",
+    gender: "male",
+    bloodGroup: "b+",
+    academicSemesterId: "e3b5415d-f314-4f5e-8cd0-f14858ce1009",
+    academicDepartmentId: "8ad3eec8-55e1-4a5c-aa9e-de73ea5a9b75",
+    academicFacultyId: "5d297c1b-8124-4eaf-a7a4-e5aec46ca89e",
++   blodGroup: String
+  },
+  include: {
+    academicFaculty: true,
+    academicDepartment: true,
+    academicSemester: true
+  }
+}
+
+Argument `blodGroup` is missing.
+Fri Jun 28 2024 17:39:53 } [PH] error: 
+Invalid `prisma.student.create()` invocation:
+
+{
+  data: {
+    studentId: "000111",
+    firstName: "ms",
+    lastName: "Odhri",
+    middleName: "Sushmita",
+    profileImage: "www.https://lsdjl.com",
+    email: "OdhriSushmita3.67@gmail.com",
+    contactNo: "01830409233",
+    gender: "male",
+    bloodGroup: "b+",
+    academicSemesterId: "e3b5415d-f314-4f5e-8cd0-f14858ce1009",
+    academicDepartmentId: "8ad3eec8-55e1-4a5c-aa9e-de73ea5a9b75",
+    academicFacultyId: "5d297c1b-8124-4eaf-a7a4-e5aec46ca89e",
++   blodGroup: String
+  },
+  include: {
+    academicFaculty: true,
+    academicDepartment: true,
+    academicSemester: true
+  }
+}
+
+Argument `blodGroup` is missing.
+Fri Jun 28 2024 17:45:26 } [PH] error: 
+Invalid `prisma.student.create()` invocation:
+
+{
+  data: {
+    studentId: "000111",
+    firstName: "hy",
+    lastName: "Odhri",
+    middleName: "Sushmita",
+    profileImage: "www.https://lsdjl.com",
+    email: "OdhriSushmita3.67@gmail.com",
+    contactNo: "01830409233",
+    gender: "male",
+    bloodGroup: "b+",
+    academicSemesterId: "e3b5415d-f314-4f5e-8cd0-f14858ce1009",
+    academicDepartmentId: "8ad3eec8-55e1-4a5c-aa9e-de73ea5a9b75",
+    academicFacultyId: "5d297c1b-8124-4eaf-a7a4-e5aec46ca89e",
++   blodGroup: String
+  },
+  include: {
+    academicFaculty: true,
+    academicDepartment: true,
+    academicSemester: true
+  }
+}
+
+Argument `blodGroup` is missing.

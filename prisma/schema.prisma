@@ -62,7 +62,7 @@ model Student {
   email String
   contactNo String
   gender String
-  blodGroup String
+  bloodGroup String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   academicSemester AcademicSemester @relation(fields: [academicSemesterId],references: [id])
