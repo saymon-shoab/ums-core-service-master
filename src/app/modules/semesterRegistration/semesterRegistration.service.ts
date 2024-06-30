@@ -1,4 +1,4 @@
-import { Prisma, SemesterRegistration, SemesterRegistrationStatus, StudentSemesterRegistration } from "@prisma/client";
+import { Course, OfferedCourse, Prisma, SemesterRegistration, SemesterRegistrationStatus, StudentSemesterRegistration, StudentSemesterRegistrationCourse } from "@prisma/client";
 import httpStatus from "http-status";
 import ApiError from "../../../errors/ApiError";
 import { paginationHelpers } from "../../../helpers/paginationHelper";
@@ -6,6 +6,8 @@ import { IGenericResponse } from "../../../interfaces/common";
 import { IPaginationOptions } from "../../../interfaces/pagination";
 import prisma from "../../../shared/prisma";
 import { asyncForEach } from "../../../shared/utils";
+import { StudentEnrolledCourseMarkService } from "../StudentEnrolledCourseMark/StudentEnrolledCourseMark.Service";
+import { StudentSemesterPaymentService } from "../StudentSemesterPayment/StudentSemesterPayment.Service";
 import { studentSemesterRegistrationCourseService } from "../studentSemesterRegistrationCourse/studentSemesterRegistrationCourse.service";
 import { semesterRegistrationRelationalFields, semesterRegistrationRelationalFieldsMapper, semesterRegistrationSearchableFields } from "./semesterRegistration.constants";
 import { IEnrollCoursePayload, ISemesterRegistrationFilterRequest } from "./semesterRegistration.interface";
