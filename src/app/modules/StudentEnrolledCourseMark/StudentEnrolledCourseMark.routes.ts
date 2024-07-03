@@ -1,19 +1,17 @@
-import { Request, Response } from "express";
-import httpStatus from "http-status";
-import catchAsync from "../../../shared/catchAsync";
-import sendResponse from "../../../shared/sendResponse";
-import { StudentEnrolledCourseMarkService } from "./studentEnrolledCourseMark.service";
+import express from 'express';
+import { ENUM_USER_ROLE } from '../../../enums/user';
+import auth from '../../middlewares/auth';
+import { StudentEnrolledCourseMarkConroller } from './StudentEnrolledCourseMark.controller';
 
-const updateStudentMarks = catchAsync(async (req: Request, res: Response) => {
-    const result = await StudentEnrolledCourseMarkService.updateStudentMarks(req.body);
-    sendResponse(res, {
-        statusCode: httpStatus.OK,
-        success: true,
-        message: "marks updated!",
-        data: result
-    })
-});
+const router = express.Router();
 
-export const StudentEnrolledCourseMarkConroller = {
-    updateStudentMarks
-}
+router.get(
+    '/',
+    auth(ENUM_USER_ROLE.ADMIN, ENUM_USER_ROLE.FACULTY),
+    StudentEnrolledCourseMarkConroller.getAllFromDB
+);
+
+router.patch('/update-marks', StudentEnrolledCourseMarkConroller.updateStudentMarks)
+router.patch('/update-final-marks', StudentEnrolledCourseMarkConroller.updateFinalMarks)
+
+export const studentEnrolledCourseMarkRoutes = router;
