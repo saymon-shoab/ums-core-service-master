@@ -9,6 +9,10 @@ const router = express.Router();
 
 router.get('/', studentController.getAllFromDB);
 
+router.get("/my-courses",
+  auth(ENUM_USER_ROLE.STUDENT),
+  studentController.myCourses
+)
 router.get('/:id', studentController.getByIdFromDB);
 
 router.post(
@@ -27,5 +31,10 @@ router.patch(
 router.delete('/:id',
  auth(ENUM_USER_ROLE.ADMIN, ENUM_USER_ROLE.SUPER_ADMIN),     
  studentController.deleteFromDB);
+
+router.get("/my-courses",
+  auth(ENUM_USER_ROLE.STUDENT),
+  studentController.myCourses
+)
 
 export const studentRoutes = router;

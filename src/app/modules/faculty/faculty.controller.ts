@@ -43,7 +43,7 @@ const getByIdFromDB = catchAsync(async (req: Request, res: Response) => {
 const updateIntoDB = catchAsync(async(req:Request,res:Response)=>{
   const {id} = req.params
   const {payload} = req.body
-  const result = await FacultyService.updateIntoDB(id,payload)
+  const result = await FacultyService.updateOneInDB(id,payload)
   sendResponse(res,{
     statusCode:httpStatus.OK,
     success:true,
@@ -54,7 +54,7 @@ const updateIntoDB = catchAsync(async(req:Request,res:Response)=>{
 
 const deleteFromDB = catchAsync(async(req:Request,res:Response)=>{
   const {id} = req.params
-  const result = await FacultyService.deleteFromDB(id)
+  const result = await FacultyService.deleteByIdFromDB(id)
   sendResponse(res,{
     statusCode:httpStatus.OK,
     success:true,
@@ -87,6 +87,18 @@ const removeCourses = catchAsync(async (req: Request, res: Response) => {
   });
 })
 
+const myCourses = catchAsync(async (req: Request, res: Response) => {
+  const user = (req as any).user;
+  const filter = pick(req.query, ['academicSemesterId', 'courseId'])
+  const result = await FacultyService.myCourses(user, filter);
+  sendResponse(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'My courses data fetched successfully!',
+      data: result
+  });
+});
+
 
 export const FacultyController = {
   insertIntoDB,
@@ -95,5 +107,6 @@ export const FacultyController = {
   deleteFromDB,
   updateIntoDB,
   assignCourses,
-  removeCourses
+  removeCourses,
+  myCourses
 };
