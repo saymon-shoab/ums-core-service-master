@@ -1,3 +1,4 @@
+
 export type IFacultyFilterRequest = {
   searchTerm?: string | undefined;
   academicFacultyId?: string | undefined;
@@ -7,4 +8,11 @@ export type IFacultyFilterRequest = {
   contactNo?: string | undefined;
   gender?: string | undefined;
   bloodGroup?: string | undefined;
-};
+}
+
+
+export type IFacultyMyCourseStudentsRequest = {
+  academicSemesterId?: string | undefined;
+  courseId?: string | undefined;
+  offeredCourseSectionId?: string | undefined;
+}
