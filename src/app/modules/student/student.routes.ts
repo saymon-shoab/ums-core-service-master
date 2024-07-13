@@ -22,6 +22,16 @@ router.post(
   studentController.insertIntoDB
 );
 
+router.get('/my-course-schedules',
+  auth(ENUM_USER_ROLE.STUDENT),
+  studentController.getMyCourseSchedules
+);
+
+router.get('/my-academic-info',
+  auth(ENUM_USER_ROLE.STUDENT),
+  studentController.myAcademicInfo
+);
+
 router.patch(
   '/:id',
   auth(ENUM_USER_ROLE.ADMIN, ENUM_USER_ROLE.SUPER_ADMIN),
