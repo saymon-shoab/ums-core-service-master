@@ -19,17 +19,17 @@ router.post(
     AcademicDepartmentController.insertIntoDB
 );
 
-// router.patch(
-//     '/:id',
-//     validateRequest(AcademicDepartmentValidation.update),
-//     auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
-//     AcademicDepartmentController.updateOneInDB
-// );
+router.patch(
+    '/:id',
+    validateRequest(AcademicDepartmentValidation.update),
+    auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+    AcademicDepartmentController.updateOneInDB
+);
 
-// router.delete(
-//     '/:id',
-//     auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
-//     AcademicDepartmentController.deleteByIdFromDB
-// );
+router.delete(
+    '/:id',
+    auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+    AcademicDepartmentController.deleteByIdFromDB
+);
 
 export const academicDepartmentRoutes = router;

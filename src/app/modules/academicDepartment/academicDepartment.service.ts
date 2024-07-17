@@ -3,10 +3,14 @@ import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import prisma from '../../../shared/prisma';
+import { RedisClient } from '../../../shared/redis';
 import {
   academicDepartmentRelationalFields,
   academicDepartmentRelationalFieldsMapper,
   academicDepartmentSearchableFields,
+  EVENT_ACADEMIC_DEPARTMENT_CREATED,
+  EVENT_ACADEMIC_DEPARTMENT_DELETED,
+  EVENT_ACADEMIC_DEPARTMENT_UPDATED
 } from './academicDepartment.contants';
 import { IAcademicDepartmentFilterRequest } from './academicDepartment.interface';
 
@@ -19,7 +23,9 @@ const insertIntoDB = async (
       academicFaculty: true,
     },
   });
-
+  if (result) {
+    RedisClient.publish(EVENT_ACADEMIC_DEPARTMENT_CREATED,JSON.stringify(result))
+  }
   return result;
 };
 
@@ -108,17 +114,41 @@ const getByIdFromDB = async (
   return result;
 };
 
-// const updateIntoDB = async(id:string,payload:Partial<AcademicDepartment>): Promise<AcademicDepartment> => {
-//   const result = await prisma.academicDepartment.update({
-//     where:{
-//       id:id
-//     }
-//   })
-//   return result
-// }
+const updateIntoDB = async(id:string,payload:Partial<AcademicDepartment>): Promise<AcademicDepartment> => {
+  const result = await prisma.academicDepartment.update({
+    where:{
+      id:id
+    },
+    data: payload
+  })
+  if (result) {
+    RedisClient.publish(EVENT_ACADEMIC_DEPARTMENT_UPDATED, JSON.stringify(result))
+  }
+  return result
+}
+
+const deleteByIdFromDB = async(id:string): Promise<AcademicDepartment> => {
+  const result = await prisma.academicDepartment.delete({
+    where:{
+      id:id
+    },
+    include: {
+      academicFaculty: true
+    }
+
+  })
+  if (result) {
+      await RedisClient.publish(EVENT_ACADEMIC_DEPARTMENT_DELETED, JSON.stringify(result))
+  }
+
+  return result
+}
+
 
 export const AcademicDepartmentService = {
   insertIntoDB,
   getAllFromDB,
   getByIdFromDB,
+  updateIntoDB,
+  deleteByIdFromDB
 };

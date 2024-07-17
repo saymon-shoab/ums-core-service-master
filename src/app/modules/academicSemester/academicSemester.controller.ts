@@ -4,7 +4,7 @@ import httpStatus from 'http-status';
 import catchAsync from '../../../shared/catchAsync';
 import pick from '../../../shared/pick';
 import sendResponse from '../../../shared/sendResponse';
-import { AcademicSemesterFilterAbleFileds } from './academicSemester.contains';
+import { AcademicSemesterFilterAbleFileds } from './academicSemester.constant';
 import { AcademicSemesterService } from './academicSemester.service';
 
 const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
@@ -44,8 +44,8 @@ const getDataById = catchAsync(async (req: Request, res: Response) => {
 
 const updateIntoDB = catchAsync(async(req:Request,res:Response)=>{
   const {id} = req.params;
-  const {payload} = req.body
-  const result = await AcademicSemesterService.updateIntoDB(id,payload);
+
+  const result = await AcademicSemesterService.updateIntoDB(id,req.body);
   sendResponse(res,{
     statusCode: httpStatus.OK,
     success:true,
