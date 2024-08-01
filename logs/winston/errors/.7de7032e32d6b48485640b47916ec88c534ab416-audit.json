@@ -6,69 +6,74 @@
     "auditLog": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/.7de7032e32d6b48485640b47916ec88c534ab416-audit.json",
     "files": [
         {
-            "date": 1719989134952,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-03-07-12-error.log",
-            "hash": "0cfb03a11def28a1dca177bbdb789ac659a4851c5a25c0fcb8bc9039f8ac5797"
+            "date": 1721882663710,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-25-07-10-error.log",
+            "hash": "484583c5e977b972af91058cdb02fbca301608b9a8d73e34f25fd525cbd6dc0b"
         },
         {
-            "date": 1719990037953,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-03-07-13-error.log",
-            "hash": "62091b4db57895e7e6afd7c3144dc4a7d49a504f6b1ab946157d6c2d35035237"
+            "date": 1721889867239,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-25-07-12-error.log",
+            "hash": "f1729227b8ef3e0936bcc472fa6719c95ee3bc230f4bf1412e036cfb4fd226a3"
         },
         {
-            "date": 1720002166788,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-03-07-16-error.log",
-            "hash": "0889d881accdd97f82a4979244e78cb5308c3f99d5ed2c14ad6a0cc738f53930"
+            "date": 1722001642754,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-26-07-19-error.log",
+            "hash": "c609067dac328c67ed973eb4a2ab860b706827afbf1da518d016b1abc787fd63"
         },
         {
-            "date": 1720021565704,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-03-07-21-error.log",
-            "hash": "0166f6e654d162bc50bec050b37945c30272ae30fa1d1d7ae40c2e5367abc232"
+            "date": 1722055805681,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-27-07-10-error.log",
+            "hash": "24fc29876a5cd7096750aa8fda137dc23a23cc2333c4479ee46f4dd99724dc0b"
         },
         {
-            "date": 1720878462474,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-13-07-19-error.log",
-            "hash": "0aa9bd70ae146ec3cca6a68c2e17e3549e7488d8be3ef8e225a7da4fc76ae2ff"
+            "date": 1722076005570,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-27-07-16-error.log",
+            "hash": "e4a76709a4c98072061bb1510bb5ce0d99fc46d338bc1cf4aed9331ab6376c42"
         },
         {
-            "date": 1720879390364,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-13-07-20-error.log",
-            "hash": "2bbd5d2ddbcafc3e276858ada6347a75427897130febd30b0dbac6805b751928"
+            "date": 1722089082056,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-27-07-20-error.log",
+            "hash": "23665f4dc2d4d47ad8e42ac6059f32684a8ad49c95c52ff0d85224ef8d3483bb"
         },
         {
-            "date": 1720882859676,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-13-07-21-error.log",
-            "hash": "01e7593d937cd16551896919dc17fa318bda9865c1c281eafa43148e0c6cf808"
+            "date": 1722173447245,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-28-07-19-error.log",
+            "hash": "ee23112a5118fd999a9c198d70d11ce1d3d7ceb7d8c87e0259374360ea2e82a6"
         },
         {
-            "date": 1720899812557,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-14-07-01-error.log",
-            "hash": "562dc3712d54ed562938546882ef379d157a1eaa92919881d4cd00f64f0b3aaf"
+            "date": 1722186949551,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-28-07-23-error.log",
+            "hash": "aa6c75b61e8e78e8c47312d5609dde0ce1af76086a47c22a6096b793621ec802"
         },
         {
-            "date": 1720900800758,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-14-07-02-error.log",
-            "hash": "d3710ee2987fc5b398b3d6cb0140867012dcf6ad16f41af296d40921e71b3994"
+            "date": 1722247287817,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-29-07-16-error.log",
+            "hash": "57b862d5833b46b2f7ca604c424789e5fccb45111a1f9d1ce6871945d764a769"
         },
         {
-            "date": 1720905346819,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-14-07-03-error.log",
-            "hash": "5c53a02a2e40b89948cee1336301ea58fa7f1f8eb7b8bc514180f49a6e15644b"
+            "date": 1722252524051,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-29-07-17-error.log",
+            "hash": "ccf60e86762062a82e97fcda00390d861f9d3f98655704d345d1fa776a9fed36"
         },
         {
-            "date": 1720908865505,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-14-07-04-error.log",
-            "hash": "53f42942bac032dd2ad84898f45dcd6d371a270d347b6be6416df1058de9d78d"
+            "date": 1722256995618,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-29-07-18-error.log",
+            "hash": "e0fcf19218d704642a04956f8cd898158533ed764816410c08620a00fa36a6d8"
         },
         {
-            "date": 1720990985753,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-15-07-03-error.log",
-            "hash": "3fa30c5bfc198af6c66f431d7d05bd08e1f7b572eef204e4e88c03946ea4e412"
+            "date": 1722316600315,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-30-07-11-error.log",
+            "hash": "425f1392a669207a510e9d8e17eade4e89efaefe856d86a7e7d874a5669a5fd2"
         },
         {
-            "date": 1721060460988,
-            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-15-07-22-error.log",
-            "hash": "898d560598ebb40eba73bffb5c20d37c4cbf36869c8e79662f6e51e214b96ad0"
+            "date": 1722319614226,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-30-07-12-error.log",
+            "hash": "2344333fd23bf74229719cc700de0bb23b6cc6ac2ee5006084a2cd163ff2e4dd"
+        },
+        {
+            "date": 1722451659106,
+            "name": "/Users/saymon/Desktop/projects/level-2/ums-core-service-master/logs/winston/errors/phu-2024-01-08-00-error.log",
+            "hash": "0b1439da2ec7aecd96511b4bdd02c7656bb229c3e9530c706e3471ded612244f"
         }
     ],
     "hashType": "sha256"
